@@ -8,7 +8,7 @@ By: Hassib Ibrahim
 This web-app allows a user to create a Profile,add a Location and Post that are all under his username allowing other users to vote for them.
 
 ##  Setup/Installation Requirements
-* Live site can be accessed from the following link    https://instagram-donald.herokuapp.com/
+* Live site can be accessed from the following link    https://instagram-hassib.herokuapp.com/
 * Pre-configured Admin details are:
 Password: Kwanini
 Username: shabbaman
