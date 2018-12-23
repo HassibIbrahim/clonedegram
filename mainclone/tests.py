@@ -11,6 +11,9 @@ class Profiletest(TestCase):
             tmp.save()
             self.tempprofiles.append(tmp)
 
+
+
+
     def test_follow(self):
         follower=Profile()
         follower.save()
