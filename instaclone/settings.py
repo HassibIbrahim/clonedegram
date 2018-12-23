@@ -38,7 +38,7 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 MODE=config("MODE", default="dev")
 
 
