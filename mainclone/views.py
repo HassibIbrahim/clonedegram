@@ -102,6 +102,7 @@ def togglefollow(request, user_id):
     response = [target.followers.count(),target.following.count()]
     return JsonResponse(response, safe=False)
 
+
 @login_required(login_url='/accounts/login/')
 def find(request, name):
     results = Profile.find_profile(name)
