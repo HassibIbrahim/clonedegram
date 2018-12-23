@@ -91,3 +91,6 @@ class Saves(models.Model):
 class Follows(models.Model):
     follower = models.ForeignKey(Profile, related_name='following')
     followee = models.ForeignKey(Profile, related_name='followers')
+
+
+    
